@@ -13,6 +13,7 @@ public class HelloWorldWeb {
 	public @ResponseBody
 	String name(@PathVariable("name") String name) {
 		return name;
+		
 	}
 
 }
