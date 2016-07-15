@@ -1,6 +1,0 @@
-POJO(plain ordinary java object) 简单无规则 java 对象
-
-纯的传统意义的 java 对象。就是说在一些 Object/Relation Mapping 工具中，
-能够做到维护数据库表记录的 persisent object 完全是一个符合 Java Bean 规范
-的纯 Java 对象，没有增加别的属性和方法。我的理解就是最基本的 Java Bean ，
-只有属性字段及 setter 和 getter 方法！。

@@ -138,10 +138,10 @@
 		<!-- </dependency> -->
 
 		<!-- 七牛直播 -->
-		<dependency>
-			<groupId>com.qiniu.live</groupId>
-			<artifactId>guokao.live</artifactId>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.qiniu.live</groupId> -->
+<!-- 			<artifactId>guokao.live</artifactId> -->
+<!-- 		</dependency> -->
 
 		<dependency>
 			<groupId>org.bouncycastle</groupId>

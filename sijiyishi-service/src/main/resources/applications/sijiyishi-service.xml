@@ -30,33 +30,32 @@
 		</property>
 	</bean>
 
-	<!-- <!-- 自动扫描的包名 -->
+	<!-- 自动扫描的包名 -->
 	<context:component-scan base-package="com.sijiyishi.service.impl">
 		<context:include-filter type="annotation"
 			expression="org.springframework.stereotype.Service" />
 	</context:component-scan>
 
 
-	<!-- <!-- 事务管理 -->
-	<!-- <bean id="transactionManager" -->
-	<!-- class="org.springframework.jdbc.datasource.DataSourceTransactionManager"> -->
-	<!-- <property name="dataSource" ref="dataSource" /> -->
-	<!-- </bean> -->
+	<!-- 事务管理 -->
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
 
-	<!-- <tx:advice id="txAdvice2" transaction-manager="transactionManager"> -->
-	<!-- <tx:attributes> -->
-	<!-- <tx:method name="save*" propagation="REQUIRED" /> -->
-	<!-- <tx:method name="add*" propagation="REQUIRED" /> -->
-	<!-- <tx:method name="*" read-only="true" /> -->
-	<!-- </tx:attributes> -->
-	<!-- </tx:advice> -->
+	<tx:advice id="txAdvice2" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="save*" propagation="REQUIRED" />
+			<tx:method name="add*" propagation="REQUIRED" />
+			<tx:method name="*" read-only="true" />
+		</tx:attributes>
+	</tx:advice>
 
-	<!-- <!-- service配置事务 -->
-	<!-- <aop:config> -->
-	<!-- <aop:pointcut id="interceptorPointCuts2" -->
-	<!-- expression="execution(* com.sijiyishi.service.*.*(..))" /> -->
-	<!-- <aop:advisor advice-ref="txAdvice2" pointcut-ref="interceptorPointCuts2" 
-		/> -->
-	<!-- </aop:config> -->
+	<!-- service配置事务 -->
+	<aop:config>
+		<aop:pointcut id="interceptorPointCuts2"
+			expression="execution(* com.sijiyishi.service.*.*(..))" />
+		<aop:advisor advice-ref="txAdvice2" pointcut-ref="interceptorPointCuts2" />
+	</aop:config>
 
 </beans>   

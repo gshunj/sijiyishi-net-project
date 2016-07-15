@@ -408,17 +408,17 @@
 			</dependency>
 
 			<!-- qq sdk -->
-			<dependency>
-				<groupId>com.qq</groupId>
-				<artifactId>QQSdk4J</artifactId>
-				<version>${com.qq-QQSdk4J.version}</version>
-				<exclusions>
-					<exclusion>
-						<groupId>commons-codec</groupId>
-						<artifactId>commons-codec</artifactId>
-					</exclusion>
-				</exclusions>
-			</dependency>
+			<!-- <dependency> -->
+			<!-- <groupId>com.qq</groupId> -->
+			<!-- <artifactId>QQSdk4J</artifactId> -->
+			<!-- <version>${com.qq-QQSdk4J.version}</version> -->
+			<!-- <exclusions> -->
+			<!-- <exclusion> -->
+			<!-- <groupId>commons-codec</groupId> -->
+			<!-- <artifactId>commons-codec</artifactId> -->
+			<!-- </exclusion> -->
+			<!-- </exclusions> -->
+			<!-- </dependency> -->
 
 			<dependency>
 				<groupId>commons-codec</groupId>
@@ -452,13 +452,13 @@
 			<!-- </dependency> -->
 
 			<!-- 直播 -->
-			<dependency>
-				<groupId>com.qiniu.live</groupId>
-				<artifactId>guokao.live</artifactId>
-				<version>${com.qiniu.live.version}</version>
-				<!-- <scope>system</scope> -->
-				<!-- <systemPath>D:/.m2/repository/com/qiniu/live/guokao.live/1.5.4/guokao.live-1.5.4.jar</systemPath> -->
-			</dependency>
+			<!-- <dependency> -->
+			<!-- <groupId>com.qiniu.live</groupId> -->
+			<!-- <artifactId>guokao.live</artifactId> -->
+			<!-- <version>${com.qiniu.live.version}</version> -->
+			<!-- <scope>system</scope> -->
+			<!-- <systemPath>D:/.m2/repository/com/qiniu/live/guokao.live/1.5.4/guokao.live-1.5.4.jar</systemPath> -->
+			<!-- </dependency> -->
 
 
 			<dependency>
