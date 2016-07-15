@@ -10,6 +10,7 @@
 		<module>../sijiyishi-web</module>
 		<module>../sijiyishi-service</module>
 		<module>../sijiyishi-persistence</module>
+		<module>../sijiyishi-util</module>
 		<module>../sijiyishi-bean</module>
 	</modules>
 

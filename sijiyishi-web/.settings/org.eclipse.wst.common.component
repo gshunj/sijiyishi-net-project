@@ -10,6 +10,9 @@
         <dependent-module archiveName="sijiyishi-persistence-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sijiyishi-persistence/sijiyishi-persistence">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="sijiyishi-util-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sijiyishi-util/sijiyishi-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="sijiyishi-bean-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sijiyishi-bean/sijiyishi-bean">
             <dependency-type>uses</dependency-type>
         </dependent-module>

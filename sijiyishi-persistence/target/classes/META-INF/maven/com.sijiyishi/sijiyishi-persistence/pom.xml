@@ -14,7 +14,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.sijiyishi</groupId>
-			<artifactId>sijiyishi-bean</artifactId>
+			<artifactId>sijiyishi-util</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
